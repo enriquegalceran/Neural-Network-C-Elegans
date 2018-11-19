@@ -1,4 +1,6 @@
-load('wormAngles/135 CB4852 on food R_2011_03_29__11_09___3___1_features.mat')
+% load('wormAngles/135 CB4852 on food R_2011_03_29__11_09___3___1_features.mat')
+% load('wormAngles/135 CB4852 on food L_2011_03_30__15_11_25___6___9_features.mat')
+load('wormAngles/135 CB4852 on food R_2011_03_09__15_20_25__8_features.mat')
 X = worm.posture.skeleton.x;
 Y = worm.posture.skeleton.y;
 X2 = worm.path.coordinates.x;
